@@ -30,7 +30,8 @@ matrix = media.Movie('Matrix', 'I choose the red pill',
                      'https://upload.wikimedia.org/wikipedia/'
                      'pt/c/c1/The_Matrix_Poster.jpg',
                      'https://www.youtube.com/watch?v=m8e-FF8MsqU')
-
+# Lista de filmes que irá popular o site
 moviesArray = [rocky_balboa, toy_story, terminator,
                sixth_sense, blade_runner, matrix]
+# Função do fresh_tomatoes que popula o site tendo uma lista como parâmetro
 fresh_tomatoes.open_movies_page(moviesArray)
